@@ -1,9 +1,15 @@
-# Virtual detector with machine learning
+# Virtual detector with machine learning (Well 58-32)
 
 Drilling is a complex operation with uncontrolled parameters and disturbances that could generate non-productive time during the bit trajectory. A possible scenario to improve the operation is proposed in this research, coupling predictions of parameters with anomaly detection algorithms to minimize the cost of the drilling operation.  Machine learning algorithms have contributed to both approaches uncovering relations between input parameters and the quantity of interest. 
 
-(1) Prediction of rate of penetration for Well 58-32 Mildford (Utah-USA). We developed experiments based on static data set analysis. For this reason, the analysis of predictions is developed splitting all the data randomly between training (70%) and test (30%). The data is trained in the model selected (support vector regression, random forest, xgboost and neural networks). The data set for support vector regression and neural networks is standardized to zero mean and variance equal to one to remove effects of differing feature magnitudes.
-(2) Anomaly detection predicting part of the interval. In the assessment, we have defined a interval of analysis between 3595 ft to 4097 ft in Well 58-32 where 70\% represents training and 30\% testing. The proportion of training and test were defined in a sequence. To detect the anomalies, we need to define a threshold which represent the proportion of outliers (1.5\%). However, this reference requires the analysis of several data set to define a common threshold. For this study, the limit has been arbitrarily defined. Further research, with more data available, will contribute to define a realistic limit.
+(1) Prediction of rate of penetration for Well 58-32 Mildford (Utah-USA). 
+We developed experiments based on static data set analysis. For this reason, the analysis of predictions is developed splitting all the data randomly between training (70%) and test (30%). The data is trained in the model selected (support vector regression, random forest, xgboost and neural networks). The data set for support vector regression and neural networks is standardized to zero mean and variance equal to one to remove effects of differing feature magnitudes.
+(2) Anomaly detection predicting part of the interval. 
+In the assessment, we have defined a interval of analysis between 3595 ft to 4097 ft in Well 58-32 where 70\% represents training and 30\% testing. The proportion of training and test were defined in a sequence. To detect the anomalies, we need to define a threshold which represent the proportion of outliers (1.5\%). However, this reference requires the analysis of several data set to define a common threshold. For this study, the limit has been arbitrarily defined. Further research, with more data available, will contribute to define a realistic limit.
+
+## Data
+
+https://gdr.openei.org/submissions/1101
 
 ### Assistance and design tools
 
